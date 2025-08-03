@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minesweeper Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css"> <!-- Corrected -->
+</head>
+<body>
+    <h1>Minesweeper</h1>
+    <p>Find all 6 mines in the 5×5 grid</p>
+    
+    <div class="game-container">
+        <div class="controls">
+            <div class="mines-count">Mines: 6</div>
+        </div>
+        
+        <div class="board" id="board"></div>
+        
+        <div class="message" id="message"></div>
+        
+        <button class="restart-btn" id="restartBtn">New Game</button>
+    </div>
+    
+    <!-- Hidden developer toggle -->
+    <div class="debug-toggle">
+        <label>
+            <input type="checkbox" id="firstClickBomb">
+            
+        </label>
+    </div>
+
+    <script src="script.js"></script> <!-- Corrected -->
+</body>
+</html>
